@@ -1,3 +1,129 @@
 body{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding: 0;
+
+}
+.header{
+    color: #f9faf8;
+    background-color:rgba(231,37,10,255);
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: row;
+}
+.headerbox{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 0px;
+    border-radius: 0;
+}
+.header-logo{
+color:#F9FAF8;
+font-size: 24px;
+font-family: Andale Mono, monospace;
+}
+ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-content: center;
+        margin-right: 80px;
+        margin-top: 30px;
+        gap:25px;
+}
+a{
+    text-decoration: none;
+    color: #f9faf8 ;
+    box-shadow: none;
+}
+.hero-main{
     
+    background-color:rgba(231,37,10,255);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.hero-info{
+    gap:16px;
+    padding:10px;
+    padding-top: 0px;
+    width:480px;
+}
+h1{
+    color:#F9FAF8 ;
+    font-size: 48px;
+    font-weight: bolder;
+}
+p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+button{
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 100px;
+}
+.picbox{
+    margin-top: 5px;
+    display:flex;
+    flex-direction: row;
+    gap:20px;
+}
+.picbox> img{
+    border: 9px solid rgba(231,37,10,255) ;
+    border-radius: 25px;
+}
+.textbox{
+    display:flex;
+    flex-direction: row;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    background-color:#E5E7EB ;
+    padding: 100px;
+    align-content: center;
+    justify-content: center;
+
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+}
+.signature{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+    
+}
+
+
+
+
+
+
+
+.footer{
+    color:#F9FAF8 ;
+    background-color:rgba(231,37,10,255) ;
+    padding: 15px;
+    display:flex;
+    justify-content: center;
+
 }
