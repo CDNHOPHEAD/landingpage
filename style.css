@@ -49,11 +49,13 @@ a{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding-bottom: 50px;
 }
 .hero-info{
     gap:16px;
     padding:10px;
     padding-top: 0px;
+    padding-bottom: 30px;
     width:480px;
 }
 h1{
@@ -66,40 +68,49 @@ p{
     color: #E5E7EB;
 }
 button{
+    
+    height: 50px;
+    width: 100px;
     padding: 8px 16px;
     border-radius: 8px;
     background: royalblue;
-    border: 1px solid royalblue;
+    border: 2px solid white;
     color: white;
 }
 .container1{
     display: flex;
+    align-items: center;
     justify-content: center;
-    align-content: center;
-    padding: 100px;
+    margin-top: 20px;
 }
-.picbox{
-    margin-top: 5px;
-    display:flex;
-    flex-direction: row;
-    gap:20px;
-}
-.picbox> img{
-    border: 9px solid rgba(231,37,10,255) ;
-    border-radius: 25px;
-}
-.textbox{
-    display:flex;
-    flex-direction: row;
+h2{
+    font-size: 38px;
+    font-weight: bold;
 }
 .container2{
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding:10px 100px 80px 100px;
+    align-content: center;
+    text-align: center;
+}
+.info{
+    max-width: 200px;
+}
+.info> img{
+    border: 9px solid rgba(231,37,10,255) ;
+    border-radius: 25px;
+}
+.container3{
+    display: flex;
     flex-direction: column;
     background-color:#E5E7EB ;
-    padding: 100px;
+    padding: 150px;
     align-content: center;
     justify-content: center;
-
+    text-align: center;
 }
 .quote{
     font-size: 36px;
@@ -109,21 +120,25 @@ button{
     font-size: 20px;
     font-weight: bold;
 }
-
-    
+.modal1{
+    margin:80px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(175, 12, 12, 0.836);
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
-
-
-
-
-
-
-
+.modal2{
+    display:flex;
+    flex-direction: column;
+}
 .footer{
     color:#F9FAF8 ;
     background-color:rgba(231,37,10,255) ;
     padding: 15px;
     display:flex;
     justify-content: center;
-
 }
